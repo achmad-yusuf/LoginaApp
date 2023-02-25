@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETUserid"
+        android:textSize="23sp"
+        android:hint="@string/userid"
+
+        />
+
+    <TextView
+        android:id="@+id/tvtglmuat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ETUserid"
+        android:textSize="23sp"
+        android:layout_marginTop="10dp"
+        android:text="Loading Date" />
+
+    <Button
+        android:id="@+id/Btloadingdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal muat"
+        android:layout_below="@+id/ETUserid"
+        android:textSize="23sp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/colorPrimaryDark"
+        style="?android:spinnerStyle"
+        android:onClick="openDatePicker"
+    />
+
+
+
+
+    <TextView
+        android:id="@+id/tvtambangmuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtglmuat"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Loading Field /Tambang Muat" />
+    <Spinner
+        android:id="@+id/sp_loadingplace"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtambangmuat"
+        android:hint="@string/unloadingdate"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETnopolice"
+        android:textSize="23sp"
+        android:hint="@string/nopolice"
+        android:layout_below="@+id/sp_loadingplace"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETnodo"
+        android:textSize="23sp"
+        android:hint="@string/nodo"
+        android:layout_below="@+id/ETnopolice"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETton"
+        android:textSize="23sp"
+        android:hint="@string/ton"
+        android:layout_below="@+id/ETnodo"
+         />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EToil"
+        android:textSize="23sp"
+        android:hint="@string/ongkos"
+        android:layout_below="@+id/ETton"
+        />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EToil"
+        android:layout_marginTop="2dp"
+        android:text="Save"
+        android:textSize="26sp"
+        />
+
+
+</RelativeLayout>

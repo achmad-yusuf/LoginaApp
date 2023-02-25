@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Loading Batubara</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="userid">Userid</string>
+    <string name="loadingdate">Tanggal Muat</string>
+    <string name="unloadingdate">Tanggal Bongkar</string>
+    <string name="nopolice">NO.Polisi</string>
+    <string name="nodo">NO.DO/Delivery Order</string>
+    <string name="ton">Tonase (KG)</string>
+    <string name="ongkos">Oil ltr</string>
+</resources>
