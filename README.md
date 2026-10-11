@@ -1,20 +1,6 @@
 Learning Diary on below lin achmad-yusuf/Android at LearningDiary (github.com)
 Project on link below achmad-yusuf/LoginaApp (github.com)
 
-unload transit loading Android‑based Coal Logistics & Fleet Operations Platform that streamlines commodity transport tracking, 
-freight tariff calculation, driver trip allowances, fuel usage monitoring, and digital dispatch documentation for mining‑to‑transport workflows. 
-see demo here https://www.youtube.com/watch?v=RDjFazhrv2o
-
-# Android
-1.My github
-https://github.com/achmad-yusuf/Android
-
-2. Learning Diary on below link
-achmad-yusuf/Android at LearningDiary (github.com)
-
-3.Project on link below
-achmad-yusuf/LoginaApp (github.com)
-
 <b>Android‑based Coal Logistics & Fleet Operations Platform</b> that streamlines commodity transport tracking, freight tariff calculation, driver trip allowances, fuel usage monitoring, and digital dispatch documentation for mining‑to‑transport workflows.
 
 🎥 Demo Video
