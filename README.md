@@ -35,8 +35,8 @@ Designed to improve accuracy, transparency, and efficiency in coal logistics ope
 
 🛠️ Tech Stack
 
-Android (Java/Kotlin)
+Android (Java)
 
-SQLite / Room
+SQLite 
 
 MVVM Architecture
